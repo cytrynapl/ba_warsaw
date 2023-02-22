@@ -1,4 +1,4 @@
-# ba_warsaw
+# ba_warsaw_broker
 25.02 there is and API workshop.
 Yulia presents a BROKER, so API requests and repsonses provide JSONS for this role according to USE-CASE described below.
 https://docs.google.com/document/d/1c4HLmuQ5NG3zmjt7zQyDdG5ITVZbPI0judACYXS2rvc/edit#
@@ -35,3 +35,20 @@ Main flow:
   -Coverages
 8.User triggers policy submission
 9.System submits the new Policy (call BR-API-2)
+
+
+Alternative flows:
+   2a. No current Policies associated with a Broker
+      1.System displays a message “No current Policies”
+   2b. User filters Policy list
+      1.User applies one of the filters: Policy type, Holder name, Employer name, Frequency
+      2.System filters the list based on provide criteria 
+   4a. No current Employers for a Holder
+      1.Return message “No current employment”
+      2.Go to step 2
+
+Post-conditions:
+-A new Policy is created
+-System calculates a commision and assign it to the Policy
+-The Policy is available in the Policies list
+

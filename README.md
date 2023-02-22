@@ -1,6 +1,7 @@
 # ba_warsaw
 25.02 there is and API workshop.
 Yulia presents a BROKER, so API requests and repsonses provide JSONS for this role according to USE-CASE described below.
+https://docs.google.com/document/d/1c4HLmuQ5NG3zmjt7zQyDdG5ITVZbPI0judACYXS2rvc/edit#
 
 
 
